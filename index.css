@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{ 
+    width: 100%;
+    height: 100vh;
+    background-image:  url(téléchargement.jfif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+}
+
+
+
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+    padding-left: 20px;
+}
+
+h2{
+    color: #fff;
+    font-size: 30px;
+}
+
+p{
+    color: #fff;
+    font-size: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: cubic-bezier();
+}
+
+.cardA{
+    background-image: url(Canal-Venise.jpg);
+}
+
+.cardB{
+    background-image: url(joal-fadiouth-pont-bois.jpg);
+}
+
+.cardC{
+    background-image: url(tokyo\ web.jpg);
+}
+
+.cardE{
+    background-image: url(londres2.1555405.w740.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+footer{
+    display: flex;
+    margin-top: 0px;
+    background-color:black ;
+    color:white;
+    margin-bottom: 0px;
+    
+    height: 50%;
+}
+
+li{
+    margin: 0 0 0 5px;
+    padding: 5px 30px 5px 30px;
+    list-style: none;
+    
+}
+.racaille{
+    float: left;
+    padding-left: 4px;
+}
+
+p,h2{
+    margin-top: -70px;
+    padding: 70px;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 600;
+    letter-spacing: 0.059em;
+    color: white;
+}
